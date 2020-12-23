@@ -1,1 +1,6 @@
 /target
+
+.vercel
+node_modules
+libreddit
+*.lock
