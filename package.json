@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "postinstall": "chmod +x libreddit && ls && ./libreddit"
+  },
   "dependencies": {
     "axios": "^0.21.1",
     "express": "^4.17.1",
