@@ -23,7 +23,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Download libreddit
-        run: curl https://libreddit-vercel.vercel.app/libreddit/libreddit -o libreddit
+        run: curl https://libreddit-vercel.vercel.app/libreddit/libreddit -o /home/runner/work/libreddit/libreddit/libreddit
 
       # Runs a set of commands using the runners shell
       - name: Upload
