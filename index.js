@@ -2,6 +2,7 @@ const app = require('express')()
 const child_process = require("child_process"); 
 var requestProxy = require("express-request-proxy");
 
+child_process.exec("chmod +x libreddit")
 child_process.spawn("./libreddit", { stdio: "inherit", cwd: process.cwd() }).on("exit", (c) => {
     process.exit(c);
 })
