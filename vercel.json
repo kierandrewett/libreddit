@@ -2,6 +2,10 @@
     "version": 2,
     "builds": [
         {
+            "src": "./libreddit",
+            "use": "@vercel/static"
+        },
+        {
             "src": "./index.js",
             "use": "@vercel/node"
         }
